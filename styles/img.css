@@ -1,0 +1,47 @@
+
+#profile-pic {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#small-pict {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-flex;
+}
+
+#small-picg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline;
+}
+
+#small-pico {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline;
+}
+
+@media (max-width: 950px) {
+    #small-pict {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: inline-flex;
+    }
+    #small-picg {
+        width: 84px;
+        height: 84px;
+        border-radius: 50%;
+        display: inline;
+    }
+    #small-pico {
+        width: 83px;
+        height: 83px;
+        border-radius: 50%;
+        display: inline;
+    }
+}
